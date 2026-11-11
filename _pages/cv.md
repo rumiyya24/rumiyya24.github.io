@@ -11,54 +11,54 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Computer Science and Data Analytics (dual-degree program), ADA University / The George Washington University, 2023-2025
+* B.S. in Computer Science, ADA University, 2019-2023
 
-Work experience
+Research interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+Machine learning for health and biomedical applications; multimodal learning; generative modeling; computer vision and medical imaging; human sensing; trustworthy and clinically meaningful AI.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Synthetic Mammogram Generation for Breast Imaging**, 2024-2025
+  * Designed a lightweight WGAN-GP architecture and end-to-end training pipeline for mammogram synthesis, prioritizing training stability, computational efficiency, and deployment on consumer-grade hardware
+  * Built a clinically grounded validation framework combining FID, SSIM, GLCM texture analysis, Sobel edge analysis, GPT-4V assessment, and blinded physician evaluation
+  * Showed that quantitative image-quality metrics alone were insufficient to establish clinical plausibility
+
+* **Synthetic Breast Imaging: Generative Methods, Simulation, and Critical Evidence Evaluation**, present
+  * Leading a scoping review and critical evidence audit of synthetic breast imaging across mammography, digital breast tomosynthesis, ultrasound, and MRI (manuscript in preparation)
+  * Developed the review protocol, search strategy, eligibility framework, and evidence-extraction methodology; conducting dual-reviewer screening of literature from PubMed, Scopus, and arXiv
+
+* **Breast Cancer Detection and Labeling System**, 2022-2023
+  * Collaborated with surgeons and radiologists at Azerbaijan Medical University on a clinically informed detection and image-labeling system for machine learning research
+  * Combined InceptionV3 deep features with GLCM texture features and compared XGBoost, Random Forest, Logistic Regression, SVM, and K-Nearest Neighbors models
+
+Teaching experience
+======
+* Adjunct Instructor, ADA University, School of IT and Engineering, Baku, Azerbaijan (Sep. 2025-present)
+  * Principles of Information Systems
+  * Business Process Modeling for IT Solutions
+  * Production and Operations Management
+  * IT Project Management
+  * Supervision of undergraduate research Senior Design Projects
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Skills
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* Languages: Python, C++, Java, SQL
+* Machine learning and AI: deep learning, generative models (GANs / WGAN-GP), computer vision, image processing, NLP, model evaluation and optimization, retrieval-augmented generation (RAG)
+* Frameworks and tools: PyTorch, TensorFlow, LangChain, Hugging Face, Git/GitHub
+* Data and analytics: statistical analysis, data pipelines
+
+Certification
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* NVIDIA Certified Associate: Generative AI and LLMs (NCA-GENL), 2026
+
+Languages spoken
 ======
-* Currently signed in to 43 different slack teams
+* Azerbaijani, English, Turkish, Russian
